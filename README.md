@@ -1,11 +1,15 @@
 
 # command
 create ~/.gradle/gradle.properties file:
+
 cat ~/.gradle/gradle.properties
+
 cloudbeesApiKey=mykey
+
 cloudbeesApiSecret=mysecret
 
 gradle tasks --all -PappId=myid -PwarFile=todo.war
+
 gradle cloudBeesAppInfo -PappId=myid -PwarFile=todo.war
 
 
